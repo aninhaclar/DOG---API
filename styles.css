@@ -1,0 +1,45 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+
+        input {
+            padding: 8px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            outline: none;
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 8px 12px;
+            font-size: 14px;
+            border: 1px solid #aaa;
+            border-radius: 4px;
+            background-color: #e0e0e0;
+            color: black;
+            cursor: pointer;
+        }
+
+        .galeria {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin-top: 20px;
+            max-width: 80%;
+        }
+
+        .galeria img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
